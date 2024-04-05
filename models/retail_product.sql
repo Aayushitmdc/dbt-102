@@ -1,1 +1,1 @@
-select name, id as product_id from product 
+select name, id as product_id from retail_data.product
