@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: retail_product
-    database: retaildata
+  - name: product
+    database: retail_data
     schema: 
-      - name: retail_product
+      - name: product
         tables:
-          - name: retail_product
+          - name: product
