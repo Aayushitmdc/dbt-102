@@ -1,5 +1,3 @@
-version: 2
-
 sources:
   - name: retail_data
     schema: retail_data
