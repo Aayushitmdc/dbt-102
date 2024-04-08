@@ -1,3 +1,3 @@
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
 select name, id as product_id from retail_data.product
