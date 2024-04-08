@@ -5,7 +5,7 @@ sources:
     database: dbt-analytics-engineer-414412
     schema: retail_data
     tables:
-      - name: src_product
+      - name: source1
         identifier: product
       - name: retail_product
         identifier: src_r_product
