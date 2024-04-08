@@ -8,5 +8,5 @@ sources:
       - name: product
         identifier: src_product
       - name: retail_product
-        identifier: src_r_product
+        identifier: src_product
       
