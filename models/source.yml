@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: retail_data_new
+  - name: retail_data
     database: dbt-analytics-engineer-414412
     schema: retail_data
     tables:
