@@ -8,4 +8,6 @@ sources:
       - name: product
         identifier: src_product
     quoting:
+      database: true
+      schema: true
       identifier: true
