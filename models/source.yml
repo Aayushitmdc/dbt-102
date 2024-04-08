@@ -7,6 +7,3 @@ sources:
     tables:
       - name: product
         identifier: src_product
-      - name: retail_product
-        identifier: src_product
-      
