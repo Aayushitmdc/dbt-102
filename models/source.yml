@@ -1,9 +1,7 @@
 version: 2
 
 sources:
-  - name: product
-    database: retail_data
-    schema: 
+  - name: src1
+    database: dbt-analytics-engineer-414412
+    schema: retail_data
       - name: product
-        tables:
-          - name: product
