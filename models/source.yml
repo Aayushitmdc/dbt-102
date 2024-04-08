@@ -5,9 +5,5 @@ sources:
     database: dbt-analytics-engineer-414412
     schema: retail_data
     tables:
-      - name: src_product
-        identifier: product
-    quoting:
-      database: true
-      schema: true
-      identifier: true
+      - name: product
+  
