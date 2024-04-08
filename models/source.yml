@@ -7,3 +7,5 @@ sources:
     tables:
       - name: product
         identifier: src_product
+    quoting:
+      identifier: true
