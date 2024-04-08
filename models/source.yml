@@ -10,4 +10,4 @@ sources:
     quoting:
       database: true
       schema: true
-      identifier: true
+      identifier: false
