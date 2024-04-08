@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: retail_data
-    database: dbt-analytics-engineer-414412
     schema: retail_data
     tables:
       - name: product
+        identifier: src_product 
   
