@@ -1,3 +1,5 @@
+
 {{ config(materialized='view') }}
 
-select name, id as product_id from retail_data.product
+select name, id as product_id from {{source('retail_data', 'product')}}
+  
