@@ -3,6 +3,10 @@ version: 2
 sources:
   - name: retail_data
     database: dbt-analytics-engineer-414412
-    schema: retail_data
+    schema: raw
     tables:
       - name: product
+        identifier: src_product
+      - name: retail_product
+        identifier: src_r_product
+      
